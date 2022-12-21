@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+.abc{
+  display: flex;
+}

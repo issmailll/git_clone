@@ -1,0 +1,32 @@
+.repos__wrapper {
+  display: flex;
+  align-items: center;
+}
+.repos__button-wrapper {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.repos__list-item {
+  margin-right: 7px;
+}
+.repos__serach-input {
+  width: 500px;
+  margin-right: 20px;
+}
+.repos__new-btn {
+  margin-left: 15px;
+}
+.repos__btn {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 8px;
+  background-color: #f6f8fa;
+  border: 1px solid #d5d8da;
+  &:hover {
+    background-color: #f6f8fa;
+    border: 1px solid #d5d8da;
+  }
+}

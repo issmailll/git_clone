@@ -1,0 +1,26 @@
+.followers {
+  width: 100%;
+}
+.followers__img {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 50%;
+  margin-right: 65px;
+}
+.followers__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.followers__list-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid red;
+  padding: 30px;
+}
+.followers__btn {
+  margin-left: auto;
+}
+.followers__login-link {
+  color: #000;
+}

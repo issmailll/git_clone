@@ -1,0 +1,70 @@
+.header {
+  background-color: #24292f;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+.header__text-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 30px;
+}
+.header__text-list-item {
+  margin-right: 20px;
+}
+.header__text-list-links {
+  color: #fff;
+  &:hover {
+    color: rgb(238, 224, 224);
+  }
+}
+.header__input {
+  width: 260px;
+  height: 24px;
+  background-color: transparent;
+  margin-left: 10px;
+  font-size: 14px;
+  padding-left: 10px;
+  font-weight: bold;
+  border: 1px solid #57606a;
+  border-radius: 4px;
+}
+.header__slach-icon {
+  right: 0;
+  right: 3px;
+  top: 3px;
+}
+.header__input:focus {
+  width: 500px;
+  transition: width ease-out 0.3s;
+}
+.header__texts-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__avatar-img {
+  border-radius: 50%;
+}
+.header__nav-right {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.header__nav-items {
+  margin-right: 15px;
+}
